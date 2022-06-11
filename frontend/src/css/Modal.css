@@ -1,0 +1,87 @@
+.modal{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: rgba(60, 60, 60, 0.8);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    color: black;
+}
+.modal.active{
+    transform: scale(1);
+}
+.modal_content{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    min-height: 650px;
+    width: 1000px;
+    color:black;
+    position: relative;
+}
+.close{
+    position: absolute;
+    cursor: pointer;
+    right: 15px;
+    top:10px;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://medicalpark.kz/themes/medical/public/images/close-modal.png);
+}
+.username{
+    margin: 10px;
+}
+.title{
+    color: #0050d5;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+.desc{
+    text-align: center;
+}
+.form-control{
+    border: 2px solid #ececec;
+    box-shadow: none;
+    display: block;
+    width: 60%;
+    height: 34px;
+    padding: 6px 12px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+.select{
+    margin-left:20%;
+    margin-top: 20px;
+    width: 60%;
+}
+.checkbox{
+    margin-left: 192px;
+    margin-top:20px;
+}
+.button2{
+    margin-left: 40%;
+    margin-top: 20px;
+    border: none !important;
+    height: 38px;
+    width: 195px;
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #5cb85c;
+}
